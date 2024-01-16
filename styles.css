@@ -10,7 +10,6 @@ body {
   background: linear-gradient(170deg, #357ded, #d72638);
 }
 .container {
-    border: 2px solid white;
   width: 40%;
   min-width: 450px;
   position: absolute;
@@ -28,7 +27,7 @@ body {
 }
 #newtask input {
   width: 70%;
-  width: 70%;
+  height: 70%;
   height: 45px;
   font-family: "Poppins", sans-serif;
   font-size: 15px;
@@ -39,6 +38,7 @@ body {
   position: relative;
   border-radius: 5px;
 }
+
 #newtask input:focus {
   outline: none;
   border-color: #357ded;
@@ -85,7 +85,7 @@ body {
   font-weight: 400;
 }
 .task button {
-  background-color: #357ded;
+  background-color: #d72638;
   color: #ffffff;
   height: 100%;
   width: 40px;
@@ -96,4 +96,4 @@ body {
 }
 .completed {
   text-decoration: line-through;
-}
+}  
