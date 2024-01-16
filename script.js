@@ -11,6 +11,7 @@ document.querySelector("#push").onclick = function () {
                 <button class="delete">
                     <i class="far fa-trash-alt"></i>
                 </button>
+                // Up Down Button
             </div>
         `;
 
